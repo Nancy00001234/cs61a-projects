@@ -7,7 +7,7 @@ This project implements a tower defense game similar to Plants Vs. Zombies. Ants
 In this game, Bees either try to move toward the end of the territory tunnel or they sting ants in their way. As the ant queen, the player **populate** ants' colony with the bravest ants you can muster. Ants perform **a different action** depending on their **type**, such as throwing leaves at the bees. The game **ends** either when a bee reaches the end of the tunnel or ant queen (you lose), or the entire bee flotilla has been vanquished (you win).
 
 ## Discriptions
-Implement the game utilizing Object-Oriented Design:
+Implement the game utilizing **Object-Oriented Design**:
 - Territory   
   - The territory tunnels of ants are formed by multiple connected places, which are instances of a object class, Place.  
   - Methods inside the Place class control ants and bees' appearance, removal, and movement along a tunnel.    
