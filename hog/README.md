@@ -1,4 +1,4 @@
-# The Gaame of Hog
+# The Game of Hog
 Develop a simulator, game rules, and multiple strategies for the dice game Hog using higher-order functions, controls, and mutations in Python.  
 Implement functions to calculate the average win rate of various Hog strategies, and determine the number of rolls (1 - 10) that gives the maximum average score for a turn.
 
