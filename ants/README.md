@@ -4,7 +4,7 @@
 .<img src="https://user-images.githubusercontent.com/104662491/207789283-36f6e892-22e9-487e-be75-0caee13f0a4d.png" width="450" height="300" />
   
 This project implements a tower defense game similar to Plants Vs. Zombies. Ants (player placed units) protect their territory against the evil bees’ invasion.     
-In this game, Bees either try to move toward the end of the territory tunnel or sting ants in their way. As the ant queen, the player **populates** the ants' colony with the bravest ants one can muster. Ants perform **different actions** depending on their **type**, such as throwing leaves at the bees and protecting other ants. The game **ends** either when a bee reaches the end of the tunnel/ destroys the ant queen (you lose), or if the entire bee flotilla has been vanquished (you win).
+In this game, Bees either try to move toward the end of the territory tunnel or sting ants in their way. The player **populates** the ants' colony with the bravest ants one can muster. Ants perform **different actions** depending on their **type**, such as throwing leaves at the bees, eating bees, and protecting other ants. The game **ends** either when a bee reaches the end of the tunnel / destroys the ant queen (you lose), or if the entire bee flotilla has been vanquished (you win).
 
 ## Discriptions
 Implement the game utilizing **Object-Oriented Design**:
@@ -15,9 +15,9 @@ Implement the game utilizing **Object-Oriented Design**:
 - Insect  
 Insect is the parent class of Ants and Bees.
   - Ant   
-  16 types of ants are designed through inheritance, multiple inheritance, and attributes override from the Class Ant. They hold different features(armor, damage, etc.) and defense methods(throw leaves, eat bees, stun bees, protect other ants, etc.)  
+  16 types of ants are designed through inheritance, multiple inheritance, and overriding attributes from the Ant Class. They possess different features (armor, damage, etc.) and are equipped with various defense methods (throw leaves, eat bees, stun bees, protect other ants, etc.)  
   - Bee  
-  Controls bees' action.
+  Controls bees' actions. 
   
 ## Play the Game
 Clone or download (and unzip) the "ants" folder. Then go to the root and type:
