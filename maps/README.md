@@ -1,12 +1,12 @@
 # Yelp Maps  
-This project creates a visualization of restaurant ratings on Google Maps using machine learning and the Yelp academic dataset. In this visualization, Berkeley's restaurants that are close to each other are grouped into clusters. The Berkeley campus is segmented into regions, where each region is shaded by the predicted rating of the closest restaurant (yellow is 5 stars, blue is 1 star).  Users with different preferences(e.g. a user who likes southside restaurants and another user who likes expensive restaurants) can have totally different visualizations.  
+This project creates a visualization of restaurant ratings on Google Maps using machine learning and the Yelp academic dataset. In this visualization, Berkeley's restaurants that are close in proximity are grouped into clusters. The Berkeley campus is segmented into regions, where each region is shaded by the predicted rating of the closest restaurant (yellow is 5 stars, blue is 1 star).  Users with different preferences (e.g. a user who likes southside restaurants and another user who likes expensive restaurants) can have a completely different visualization.  
 
 .<img src="https://user-images.githubusercontent.com/104662491/207781143-bd1847dc-71bb-4af0-b90f-ce2adb841aa9.png" width="600" height="400" />
 
 ## Description
 Implement Yelp Maps visualization using:
 - data abstractions
-- the k-means clustering algorithm in supervised learning
+- the k-means clustering algorithm in unsupervised learning
 - the least-squares linear regression in supervised learning
 
 ## Usage Example 
@@ -16,14 +16,14 @@ $ python3 recommend.py -u [USER] -k [NUMBER OF CLUSTERS] -p [-q RESTAURANT TYPE]
 ```
 (If you are using Windows, please type in "Python" instead of "Python3".)  
         <br>
-For instance, the following command visualizes all restaurants and their predicted ratings for the user who likes_expensive restaurants:
+For instance, the following command visualizes all restaurants and their predicted ratings for the user who `likes_expensive` restaurants:
 ```
 $ python3 recommend.py -u likes_expensive -k 3 -p
 ```
 .<img src="https://user-images.githubusercontent.com/104662491/207767148-e7782f91-4d03-4095-ad4a-4c2a0d90cfd5.png" width="600" height="500" />  
 The predicted rating of the closest restaurant would be displayed by placing your mouse over the corresponding region.
 
-Sandwich restaurants can be selected out:
+Sandwich restaurants can be filtered out specfically:
 ```
 $ python3 recommend.py -u likes_expensive -k 3 -p -q Sandwiches
 ```
