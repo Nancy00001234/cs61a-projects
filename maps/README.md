@@ -21,7 +21,7 @@ For instance, the following command visualizes all restaurants and their predict
 $ python3 recommend.py -u likes_expensive -k 3 -p
 ```
 .<img src="https://user-images.githubusercontent.com/104662491/207767148-e7782f91-4d03-4095-ad4a-4c2a0d90cfd5.png" width="600" height="500" />  
-The predicted rating of the closest restaurant would be displayed by placing your mouse over the corresponding region.
+The predicted rating of the closest restaurant would be displayed if you hover your mouse over the corresponding region.
 
 Sandwich restaurants can be filtered out specfically:
 ```
